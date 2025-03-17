@@ -557,4 +557,10 @@ body.noscroll .loading-text-inn2 {
 		font-size: 14px;
 		color: #ffffff;
 	  }
+	  .footer {
+		min-height: unset;
+	  }
+	  .mailid{
+		font-size: 32px;
+	  }
 }
