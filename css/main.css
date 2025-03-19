@@ -85,6 +85,10 @@ html {
 	.tiles__title{
 		left: -25% !important;
 	}
+
+	.casestudy-sec p{
+		font-size: 14px;
+	}
 }
 
 
@@ -476,6 +480,22 @@ body.noscroll .loading-text-inn2 {
 .side-menu{
 	display: none;
 }
+
+.group img {
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .group:hover img {
+    transform: scale(1.1);
+  }
+
+  .casestudy-sec h3{
+	transition: 0.4s ease;
+  }
+
+  .casestudy-sec a:hover h3{
+	text-decoration: underline;
+  }
 
 
 @media (max-width:1366px) {
