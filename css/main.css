@@ -488,13 +488,15 @@ body.noscroll .loading-text-inn2 {
 @media (max-width:768px){
 	.bg-img-mob{
 		border-radius:4px;
-		padding: 28px 24px;
-		border: 1px solid #242424;
+		padding: 40px 0 24px;
 	}
-	.bg-img-mob h3,.bg-img-mob ul{
-		flex-direction: column;
-		align-items: flex-start;
+	.bg-img-mob .text-h{
+		font-size: 42px;
 	}
+	.text-div-h{
+		padding-bottom: 6px;
+	}
+	
 
 	.bg-img-mob ul li{
 		margin: 0 !important;
@@ -563,4 +565,9 @@ body.noscroll .loading-text-inn2 {
 	  .mailid{
 		font-size: 32px;
 	  }
+	  .gallery{
+		display: none;
+	  }
+
+	  
 }
