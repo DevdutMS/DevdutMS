@@ -608,10 +608,6 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
@@ -797,6 +793,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-2 {
@@ -1492,6 +1493,10 @@ body.noscroll .loading-text-inn2 {
   .gallery{
     display: none;
   }
+
+  .resume-btn{
+    border: 1px solid #303030 !important;
+  }
 }
 
 .hover\:scale-\[1\.03\]:hover {
@@ -1545,8 +1550,21 @@ body.noscroll .loading-text-inn2 {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .md\:mt-\[48px\] {
     margin-top: 48px;
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
   }
 
   .md\:block {
@@ -1601,6 +1619,11 @@ body.noscroll .loading-text-inn2 {
     padding-bottom: 4rem;
   }
 
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .md\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -1616,6 +1639,11 @@ body.noscroll .loading-text-inn2 {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:opacity-100 {

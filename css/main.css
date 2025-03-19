@@ -588,6 +588,8 @@ body.noscroll .loading-text-inn2 {
 	  .gallery{
 		display: none;
 	  }
-
+	  .resume-btn{
+		border: 1px solid #303030 !important;
+	  }
 	  
 }
